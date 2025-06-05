@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ຮຽນພາສາເກົາຫຼີເບື້ອງຕົ້ນ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ຮຽນພາສາເກົາຫຼີເບື້ອງຕົ້ນ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ໜ້າຫຼັກ</a></li>
+                <li><a href="#hangul-lesson">ບົດຮຽນ Hangul</a></li>
+                <li><a href="#hangul-quiz">ແບບຝຶກຫັດ Hangul</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊທ໌ຮຽນພາສາເກົາຫຼີ!</h2>
+            <p>ມາຮຽນຮູ້ພື້ນຖານພາສາເກົາຫຼີນໍາກັນ, ເລີ່ມຕົ້ນຈາກຕົວອັກສອນ Hangul, ຄຳສັບ, ແລະປະໂຫຍກທີ່ຈຳເປັນສຳລັບຜູ້ເລີ່ມຕົ້ນ.</p>
+            <p>ພາສາເກົາຫຼີເປັນພາສາທີ່ໜ້າສົນໃຈ ແລະ ມີວັດທະນະທຳທີ່ເປັນເອກະລັກ. ການຮຽນຮູ້ຈະເປີດປະຕູສູ່ໂລກໃໝ່.</p>
+        </section>
+
+        <section id="hangul-lesson" class="container lesson-section">
+            <h2>ບົດຮຽນ: Hangul (ອັກສອນຮັນກຶນ)</h2>
+            <p>Hangul ແມ່ນລະບົບການຂຽນພາສາເກົາຫຼີທີ່ງ່າຍຕໍ່ການຮຽນຮູ້. ມັນປະກອບດ້ວຍພະຍັນຊະນະ ແລະ ສະຫຼະ.</p>
+            <h3>ພະຍັນຊະນະພື້ນຖານ (Basic Consonants):</h3>
+            <ul class="hangul-grid">
+                <li>ㄱ (g/k) - 기억 (giyeok)</li>
+                <li>ㄴ (n) - 니은 (nieun)</li>
+                <li>ㄷ (d/t) - 디귿 (digeut)</li>
+                <li>ㄹ (r/l) - 리을 (rieul)</li>
+                <li>ㅁ (m) - 미음 (mieum)</li>
+                <li>ㅂ (b/p) - 비읍 (bieup)</li>
+                <li>ㅅ (s) - 시옷 (siot)</li>
+                <li>ㅇ (ng / silent) - 이응 (ieung)</li>
+                <li>ㅈ (j) - 지읒 (jieut)</li>
+                <li>ㅊ (ch) - 치읒 (chieut)</li>
+                <li>ㅋ (k) - 키읔 (kieuk)</li>
+                <li>ㅌ (t) - 티읕 (tieut)</li>
+                <li>ㅍ (p) - 피읶 (pieup)</li>
+                <li>ㅎ (h) - 히읗 (hieut)</li>
+            </ul>
+            <h3>ສະຫຼະພື້ນຖານ (Basic Vowels):</h3>
+            <ul class="hangul-grid">
+                <li>ㅏ (a)</li>
+                <li>ㅑ (ya)</li>
+                <li>ㅓ (eo)</li>
+                <li>ㅕ (yeo)</li>
+                <li>ㅗ (o)</li>
+                <li>ㅛ (yo)</li>
+                <li>ㅜ (u)</li>
+                <li>ㅠ (yu)</li>
+                <li>ㅡ (eu)</li>
+                <li>ㅣ (i)</li>
+            </ul>
+        </section>
+
+        <section id="hangul-quiz" class="container quiz-section">
+            <h2>ແບບຝຶກຫັດ: Hangul Quiz</h2>
+            <p>ທາຍວ່າພະຍັນຊະນະ Hangul ນີ້ແມ່ນສຽງໃດ.</p>
+            <div id="quiz-container">
+                <p id="quiz-question">ກົດປຸ່ມ "ເລີ່ມ Quiz" ເພື່ອເລີ່ມຕົ້ນ!</p>
+                <div id="quiz-options">
+                    </div>
+                <p id="quiz-feedback"></p>
+                <button id="start-quiz-btn">ເລີ່ມ Quiz</button>
+                <button id="next-question-btn" style="display: none;">ຄຳຖາມຕໍ່ໄປ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ຮຽນພາສາເກົາຫຼີເບື້ອງຕົ້ນ. ສະຫງວນລິຂະສິດ.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
